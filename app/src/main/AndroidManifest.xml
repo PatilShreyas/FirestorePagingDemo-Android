@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- Kotlin Activity -->
         <activity android:name=".kotlin.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -17,6 +19,7 @@
             </intent-filter>
         </activity>
 
+        <!-- Java Activity -->
         <activity android:name=".java.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
