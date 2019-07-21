@@ -12,7 +12,7 @@
     <com.spdroid.firestore.paging.demo.custom.CircleImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_account_circle"
+            app:srcCompat="@drawable/ic_account_circle"
             android:tint="@color/materialGray300"
             android:background="@drawable/image_back"
             app:layout_constraintTop_toTopOf="parent"
