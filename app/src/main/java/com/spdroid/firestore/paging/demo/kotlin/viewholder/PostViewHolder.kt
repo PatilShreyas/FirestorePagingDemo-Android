@@ -1,10 +1,10 @@
-package com.spdroid.firestore.paging.demo.viewholder
+package com.spdroid.firestore.paging.demo.kotlin.viewholder
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.spdroid.firestore.paging.demo.R
-import com.spdroid.firestore.paging.demo.model.Post
+import com.spdroid.firestore.paging.demo.kotlin.model.Post
 
 class PostViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 

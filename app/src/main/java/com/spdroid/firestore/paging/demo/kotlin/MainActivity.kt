@@ -1,4 +1,4 @@
-package com.spdroid.firestore.paging.demo
+package com.spdroid.firestore.paging.demo.kotlin
 
 import android.os.Bundle
 import android.util.Log
@@ -13,8 +13,9 @@ import com.firebase.ui.firestore.paging.LoadingState
 import com.google.android.gms.tasks.Task
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
-import com.spdroid.firestore.paging.demo.model.Post
-import com.spdroid.firestore.paging.demo.viewholder.PostViewHolder
+import com.spdroid.firestore.paging.demo.R
+import com.spdroid.firestore.paging.demo.kotlin.model.Post
+import com.spdroid.firestore.paging.demo.kotlin.viewholder.PostViewHolder
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 

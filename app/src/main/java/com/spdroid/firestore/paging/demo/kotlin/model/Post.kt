@@ -1,4 +1,4 @@
-package com.spdroid.firestore.paging.demo.model
+package com.spdroid.firestore.paging.demo.kotlin.model
 
 import com.google.firebase.firestore.IgnoreExtraProperties
 
